@@ -80,7 +80,7 @@ Match Group sftponly
   ChrootDirectory %h
   ForceCommand internal-sftp
   PasswordAuthentication yes
-	PermitTunnel no
+  PermitTunnel no
   AllowTcpForwarding no
   X11Forwarding no
 ```
