@@ -79,6 +79,8 @@ Towards the end of the file, the following block of settings:
 Match Group sftponly
   ChrootDirectory %h
   ForceCommand internal-sftp
+  PasswordAuthentication yes
+	PermitTunnel no
   AllowTcpForwarding no
   X11Forwarding no
 ```
